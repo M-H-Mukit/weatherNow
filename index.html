@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html >
+<head>
+    <meta charset="UTF-8">
+    <title>CSS RAIN</title>
+    <link rel="stylesheet" href="css/style.css">
+
+
+    <!-- from web bootstrap support -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <!-- from local bootstrap support -->
+    <script src="js/index.js"></script>
+
+    <link href="css/bootstrap.css" rel="stylesheet" />
+
+    <link href="css/bootstrap-theme.css" rel="stylesheet" />
+    <script src="js/jquery-3.2.1.js"></script>
+
+
+</head>
+
+<body onLoad="getLocation();">
+    <div class="container-fluid">
+        <div class="row blurImage">
+            <div class="col-sm-3" id="weatherDiv">
+                <div class="row columnFixed">
+
+                    <div class="col-sm-12" id="pos" style="background-color:#4d2e00;">
+                        <div class="container-fluid">
+                            <p class="textCol tempStyle" style=" position: absolute;">30</p>
+                            <div class="textPos">
+                                <p class="textCol">Weather Forcast </p>
+                                <p class="textCol">rainy</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12" id="pos" style="background-color:#663d00;">
+                        <p class="textCol" id="weatherState"><i>Stay dry</i></p>
+                        <p class="textCol " id="state">Dhaka City</p>
+
+
+                    </div>
+                    <div class="col-sm-12" id="pos" style="background-color:#995c00; padding-top:12%">
+
+                        <div>
+                            <p class="textCol sunSize" style="position:absolute">5.20</p>
+                            <p class="textCol sunSize" style="text-align:right">6.30</p>
+                        </div>
+                        <div>
+                            <p class="textCol sunSize" style="position:absolute">Sunrise</p>
+                            <p class="textCol sunSize" style="text-align:right">Sunset</p>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+            <div class="col-sm-9" id="weatherImg">
+                <img src="image/rain.jpg" width="100%" height="100%"></div>
+        </div>
+    </div>
+
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script>
+    <script  src="js/index.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/Local_weather.json"></script>
+</body>
+</html>

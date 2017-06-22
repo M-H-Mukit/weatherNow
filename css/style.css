@@ -1,0 +1,73 @@
+html {
+    height: 100%;
+}
+
+body {
+    background: #0D343A;
+    background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(rgba(13, 52, 58, 1)), to(#000000));
+    background: -moz-linear-gradient(top, rgba(13, 52, 58, 1) 0%, rgba(0, 0, 0, 1) 100%);
+}
+
+.blurImage {
+    background: gray;
+    margin-top: 8%;
+    margin-bottom: 8%;
+    border-color: coral;
+    border-bottom-width: thick;
+    width: 100%;
+    height: 65%;
+    position: absolute;
+}
+
+.textCol {
+    color: aliceblue;
+}
+
+.textPos {
+    padding-top: 5%;
+    text-align: right;
+    position: relative;
+}
+
+#state {
+    font-size: 300%;
+    text-align: right;
+}
+
+#weatherState {
+    text-align: right;
+    font-size: 120%;
+    padding-top: 16%;
+}
+.sunSize{
+    font-size: 150%;
+}
+
+#weatherDiv {
+    position: relative;
+    background-color: darkblue;
+    height: 100%;
+}
+
+#weatherImg {
+    position: relative;
+    height: 100%;
+    background-color: black;
+}
+
+.columnFixed {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+#pos {
+    position: relative;
+    height: 33.33%;
+    width: 100%;
+}
+
+.tempStyle {
+    font-size: 400%;
+    font-family: "segoe UI";
+}

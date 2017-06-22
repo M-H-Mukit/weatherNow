@@ -1,0 +1,11 @@
+
+{
+"coord":{"lon":90.42,"lat":24.17},"weather":[{"id":501,"main":"Rain","description":"moderate rain","icon":"10n"}],
+"base":"stations",
+"main":{"temp":298.937,"pressure":1013.62,"humidity":97,"temp_min":298.937,"temp_max":298.937,"sea_level":1014.26,"grnd_level":1013.62},
+"wind":{"speed":1.82,"deg":150.502},"rain":{"3h":6.6925},"clouds":{"all":92},"dt":1497882626,
+"sys":{"message":0.0087,"country":"BD","sunrise":1497827449,"sunset":1497876527},
+"id":1337179,
+"name":"Dhaka Division",
+"cod":200
+}
