@@ -29,17 +29,35 @@ body {
     position: relative;
 }
 
-#state {
-    font-size: 300%;
-    text-align: right;
+#rectF {
+    background: #444444;
+    
+    text-align: inherit;
 }
 
-#weatherState {
+#rectC {
+    background: #555555;
+    text-align: center;
+}
+
+#state {
+    font-size: 300%;
+    position:absolute; 
+    bottom:0; 
+    right:0;
+
+}
+.wrapper{
+    position: relative;
+}
+
+#weatherStatus {
     text-align: right;
     font-size: 120%;
-    padding-top: 16%;
+    padding-top: 10px;
 }
-.sunSize{
+
+.sunSize {
     font-size: 150%;
 }
 
@@ -70,4 +88,7 @@ body {
 .tempStyle {
     font-size: 400%;
     font-family: "segoe UI";
+    padding: inherit;
+    background: #555555;
 }
+
